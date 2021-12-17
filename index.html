@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Absolute</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/myriad-pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header-all">
+        <div class="content header-all__logo-search">
+            <div class="menu">
+                <div class="menu__flex">
+                    <input class="checkbox" type="checkbox">
+                    <div class="check-wrapper">
+                        <span class="check"></span>
+                        <span class="check"></span>
+                        <span class="check"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-all__logo">
+                <a href="https://www.absoluteweb.com/">
+                    <img id="logo" src="./style/Logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="header-all__search-flex">
+                <input class="checkbox-search" type="checkbox">
+                <div class="header-all__wrapper-check">
+                    <div class="header-all__search-check-circule"></div>
+                    <div class="header-all__search-check-stick"></div>
+                </div>
+            </div>
+            <div class="header-all__search">
+                <form class="form-search">
+                    <input class="search-area" type="search" placeholder="Search" title="«Web Develop» for example" spellcheck="true">
+                    <button class="button-search" type="submit"></button>
+                </form>
+            </div>
+        </div>
+            <nav class="header-all__header-nav">
+                <ul class="content header-ul">
+                        <li class="header-li">
+                            <div class="li-content">
+                                    Home
+                            </div>
+                        </li>
+                        <li class="header-li">
+                            <div class="li-content">
+                                    Services
+                            </div>
+                        </li>
+                        <li class="header-li">
+                            <div class="li-content">
+                                    Portfolio
+                            </div>
+                        </li>
+                        <li class="header-li">
+                            <div class="li-content">
+                                    Galery
+                            </div>
+                        </li>
+                        <li class="header-li">
+                            <div class="li-content">
+                                    Help & faq
+                            </div>
+                        </li>
+                        <li class="header-li">
+                            <div class="li-content">
+                                    About
+                            </div>
+                        </li>
+                        <li class="header-li">
+                            <div class="li-content">
+                                    Contact
+                            </div>
+                        </li>
+                </ul>
+            </nav>     
+    </header>
+    <main class="content main">
+        <div class="main__buttons">
+            <h1 class="main__title">Buttons</h1>
+            <button class="btn-primary">Primary</button>
+            <button class="btn-default">Default</button>
+            <button class="btn-succsess">Success</button>
+            <button class="btn-info">Info</button>
+            <button class="btn-warning">Warning</button>
+            <button class="btn-danger">Danger</button>
+        </div>
+        <div class="main__inputs">
+            <h1 class="main__title">Inputs</h1>
+            <div class="inputs-labels">
+                <label>
+                    <input class="input-checkbox" type="checkbox">
+                    <span class="fake-checkbox"></span>
+                    <span class="text-checkbox">Checkbox</span>
+                </label>
+
+                <label>
+                    <input class="input-radio" type="radio">
+                    <span class="fake-radio"></span>
+                    <span class="text-checkbox">Radio</span>
+                </label>
+
+                <label>
+                    <div class="input-switch">
+                        <input class="input-switcher" type="checkbox">
+                        <span class="slider"></span>
+                    </div>
+                    <span class="text-checkbox">Switcher</span>
+                </label>
+                
+            </div>
+        </div>
+        <div class="star-rating">
+            <h1 class="main__title">Star rating</h1>
+            <div class="rating-simple">
+                <div class="simple-rating">
+                    <div class="simpl-rt-items">
+                        <input id="smpl-rt-5" type="radio" class="simpl-rt-item" name="rating" value="5">
+                        <label for="smpl-rt-5" class="simpl-rt-label"></label>
+                        <input id="smpl-rt-4" type="radio" class="simpl-rt-item" name="rating" value="4">
+                        <label for="smpl-rt-4" class="simpl-rt-label"></label>
+                        <input id="smpl-rt-3" type="radio" class="simpl-rt-item" name="rating" value="3">
+                        <label for="smpl-rt-3" class="simpl-rt-label"></label>
+                        <input id="smpl-rt-2" type="radio" class="simpl-rt-item" name="rating" value="2">
+                        <label for="smpl-rt-2" class="simpl-rt-label"></label>
+                        <input id="smpl-rt-1" type="radio" class="simpl-rt-item" name="rating" value="1">
+                        <label for="smpl-rt-1" class="simpl-rt-label"></label>
+                    </div>
+                </div>
+                <span class="text-checkbox">Check rating</span>
+            </div>
+            <div class="rating rating-set">
+                <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                        <input type="radio" class="rating__item" value="1" name="rating">
+                        <input type="radio" class="rating__item" value="2" name="rating">
+                        <input type="radio" class="rating__item" value="3" name="rating">
+                        <input type="radio" class="rating__item" value="4" name="rating">
+                        <input type="radio" class="rating__item" value="5" name="rating">
+                    </div>
+                </div>
+                <div class="rating__value">3</div>
+                <span class="text-checkbox">Progress rating</span>
+            </div>
+        </div>
+        <div class="carousel">
+            <h1 class="main__title">Carousel</h1>
+            <div class="wraper">
+                <div class="slick-slider">
+                    <div class="slick-slider__item">
+                        <div class="slick-slider__chewbacca">
+                        </div>
+                        <div class="slick-slider__text">
+                            <div class="main-text">
+                                When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.
+                            </div>
+                            <div class="name-text">
+                                Chewbacca
+                            </div>
+                            <div class="date">
+                                July 2017
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider__item">
+                        <div class="slick-slider__darth-vader">
+                        </div>
+                        <div class="slick-slider__text">
+                            <div class="main-text">
+                                You have controlled your fear. Now, release your anger. Only your hatred can destroy me.
+                            </div>
+                            <div class="name-text">
+                                Darth Vader
+                            </div>
+                            <div class="date">
+                                July 2017
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider__item">
+                        <div class="slick-slider__yoda">
+                        </div>
+                        <div class="slick-slider__text">
+                            <div class="main-text">
+                                Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.
+                            </div>
+                            <div class="name-text">
+                                Master Yoda
+                            </div>
+                            <div class="date">
+                                July 2017
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider__item">
+                        <div class="slick-slider__r2dr">
+                        </div>
+                        <div class="slick-slider__text">
+                            <div class="main-text">
+                                Pit ti tu pt pi tip pi. Pi ty tuuu tip pi pi pi. Tuu tip pi ti tu.
+                            </div>
+                            <div class="name-text">
+                                R2-D2
+                            </div>
+                            <div class="date">
+                                July 2017
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="content footer-container">
+            <div class="footer-content">
+                <ul class="footer-ul">
+                    <li class="footer-li-main footer-mobile-main">
+                        <span>Shop</span><i class="fas fa-chevron-up"></i>
+                    </li>
+                    <li>
+                        <p class="footer-li">Browse By Holidays</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Browse By Brand</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Gift of the Vonth Clumbs</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Customized Bottles</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Corporate Gifts</p>
+                    </li>
+                </ul>
+                <ul class="footer-ul">
+                    <li class="footer-li-main footer-mobile-main">
+                        <span>About</span><i class="fas fa-chevron-up"></i>
+                    </li>
+                    <li>
+                        <p class="footer-li">About Spirted Gifts</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Read our Blog</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">About our Section</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Read our Reviews</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Shipping & Returns</p>
+                    </li>
+                </ul>
+                <ul class="footer-ul">
+                    <li class="footer-li-main footer-mobile-main">
+                        <span>More</span><i class="fas fa-chevron-up"></i>
+                    </li>
+                    <li>
+                        <p class="footer-li">Privacy Policy</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Retailer Network</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Help and FAQs</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Scholaship</p>
+                    </li>
+                    <li>
+                        <p class="footer-li">Contact Us</p>
+                    </li>
+                </ul>
+                <ul class="footer-ul">
+                    <li class="footer-li-main">
+                        Follow us
+                    </li>
+                    <ul class="footer-logo-ul">
+                        <li class="footer-logo-li">
+                            <a href="">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="40px" height="35px">
+                                    <path class="facebook" fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+                                    d="M1.999,0.0 L37.999,0.0 C39.104,0.0 39.999,0.895 39.999,1.999 L39.999,32.999 C39.999,34.104 39.104,35.0 37.999,35.0 L1.999,35.0 C0.895,35.0 0.0,34.104 0.0,32.999 L0.0,1.999 C0.0,0.895 0.895,0.0 1.999,0.0 Z"/>
+                                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                    d="M18.3,25.998 L20.993,25.998 L20.995,17.999 L23.711,17.998 L24.2,15.242 L20.993,15.242 L20.997,13.861 C20.997,13.142 21.46,12.757 22.74,12.757 L23.976,12.757 L23.976,9.999 L21.250,9.999 C18.608,9.999 17.999,11.368 17.999,13.617 L18.3,15.242 L15.997,15.242 L15.997,17.999 L18.3,17.999 L18.3,25.998 Z"/>
+                                    </svg>
+                            </a>
+                        </li>
+                        <li class="footer-logo-li">
+                            <a href="">
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="40px" height="35px">
+                                <path class="facebook" fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+                                d="M1.999,0.0 L37.999,0.0 C39.104,0.0 39.999,0.895 39.999,1.999 L39.999,32.999 C39.999,34.104 39.104,35.0 37.999,35.0 L1.999,35.0 C0.895,35.0 0.0,34.104 0.0,32.999 L0.0,1.999 C0.0,0.895 0.895,0.0 1.999,0.0 Z"/>
+                                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                d="M27.558,10.240 C26.923,10.615 26.220,10.888 25.472,11.36 C24.874,10.397 24.21,9.999 23.77,9.999 C21.264,9.999 19.794,11.469 19.794,13.282 C19.794,13.538 19.824,13.789 19.879,14.28 C17.152,13.892 14.733,12.585 13.114,10.599 C12.831,11.83 12.670,11.647 12.670,12.249 C12.670,13.388 13.250,14.393 14.130,14.980 C13.592,14.963 13.86,14.815 12.643,14.569 L12.643,14.610 C12.643,16.201 13.775,17.526 15.276,17.830 C15.1,17.904 14.711,17.944 14.411,17.944 C14.199,17.944 13.994,17.923 13.793,17.884 C14.211,19.189 15.423,20.138 16.858,20.165 C15.736,21.45 14.320,21.570 12.783,21.570 C12.517,21.570 12.256,21.554 11.999,21.525 C13.452,22.455 15.177,22.999 17.31,22.999 C23.69,22.999 26.370,17.998 26.370,13.658 L26.359,13.234 C27.3,12.773 27.560,12.195 27.999,11.537 C27.411,11.798 26.779,11.975 26.115,12.54 C26.793,11.648 27.312,11.4 27.558,10.240 Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-logo-li">
+                            <a href="">
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="40px" height="35px">
+                                <path class="facebook" fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+                                d="M1.999,0.0 L37.999,0.0 C39.104,0.0 39.999,0.895 39.999,1.999 L39.999,32.999 C39.999,34.104 39.104,35.0 37.999,35.0 L1.999,35.0 C0.895,35.0 0.0,34.104 0.0,32.999 L0.0,1.999 C0.0,0.895 0.895,0.0 1.999,0.0 Z"/>
+                                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                d="M28.541,23.922 C28.313,24.491 27.972,25.61 27.516,25.517 C27.60,25.972 26.491,26.315 25.921,26.541 C25.352,26.770 24.668,26.997 23.757,26.997 C22.732,26.997 22.504,26.997 19.998,26.997 C17.492,26.997 17.150,26.997 16.239,26.997 C15.327,26.884 14.644,26.770 14.74,26.541 C13.505,26.315 12.935,25.972 12.479,25.517 C12.24,25.61 11.682,24.491 11.454,23.922 C11.226,23.352 10.999,22.669 10.999,21.757 C10.999,20.733 10.999,20.504 10.999,17.998 C10.999,15.492 10.999,15.151 10.999,14.240 C11.113,13.328 11.226,12.644 11.454,12.75 C11.682,11.505 12.24,10.936 12.479,10.480 C12.935,10.25 13.505,9.683 14.74,9.455 C14.644,9.227 15.327,8.999 16.239,8.999 C17.264,8.999 17.492,8.999 19.998,8.999 C22.390,8.999 22.732,8.999 23.757,8.999 C24.668,9.113 25.352,9.227 25.921,9.455 C26.491,9.683 27.60,10.25 27.516,10.480 C27.972,10.936 28.313,11.505 28.541,12.75 C28.769,12.644 28.997,13.328 28.997,14.240 C28.997,15.265 28.997,15.492 28.997,17.998 C28.997,20.505 28.997,20.846 28.997,21.757 C28.883,22.669 28.769,23.352 28.541,23.922 ZM27.402,17.998 C27.402,15.606 27.402,15.265 27.402,14.353 C27.288,13.442 27.174,12.986 27.60,12.644 C26.947,12.188 26.719,11.961 26.377,11.619 C26.35,11.278 25.807,11.50 25.352,10.936 C25.10,10.822 24.554,10.594 23.643,10.594 C22.732,10.594 22.390,10.594 19.998,10.594 C17.492,10.594 17.264,10.594 16.353,10.708 C15.441,10.822 14.986,10.936 14.644,11.50 C14.188,11.164 13.847,11.392 13.505,11.619 C13.277,11.961 13.49,12.304 12.935,12.644 C12.821,12.986 12.594,13.442 12.594,14.353 C12.594,15.265 12.594,15.606 12.594,17.998 C12.594,20.390 12.594,20.733 12.594,21.644 C12.707,22.555 12.821,23.11 12.935,23.352 C13.49,23.809 13.277,24.36 13.619,24.378 C13.961,24.719 14.188,24.947 14.644,25.61 C14.986,25.174 15.441,25.403 16.353,25.403 C17.264,25.403 17.606,25.403 19.998,25.403 C22.390,25.403 22.732,25.403 23.643,25.403 C24.554,25.289 25.10,25.174 25.352,25.61 C25.807,24.947 26.35,24.719 26.377,24.378 C26.719,24.36 26.947,23.809 27.60,23.352 C27.174,23.11 27.402,22.555 27.402,21.644 C27.402,20.733 27.402,20.390 27.402,17.998 ZM24.782,14.353 C24.153,14.353 23.643,13.843 23.643,13.214 C23.643,12.585 24.153,12.75 24.782,12.75 C25.411,12.75 25.921,12.585 25.921,13.214 C25.921,13.843 25.411,14.353 24.782,14.353 ZM19.998,22.783 C17.378,22.783 15.327,20.733 15.327,18.112 C15.327,15.492 17.378,13.442 19.998,13.442 C22.504,13.442 24.554,15.492 24.668,18.112 C24.668,20.733 22.618,22.783 19.998,22.783 ZM19.998,15.36 C18.403,15.36 17.36,16.290 17.36,17.998 C17.36,19.707 18.289,21.74 19.998,21.74 C21.593,21.74 22.959,19.593 22.959,17.998 C22.959,16.404 21.593,15.36 19.998,15.36 Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-logo-li">
+                            <a class="pinterest" href="">
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="40px" height="35px">
+                                <path class="facebook" fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+                                d="M1.999,0.0 L37.999,0.0 C39.104,0.0 39.999,0.895 39.999,1.999 L39.999,32.999 C39.999,34.104 39.104,35.0 37.999,35.0 L1.999,35.0 C0.895,35.0 0.0,34.104 0.0,32.999 L0.0,1.999 C0.0,0.895 0.895,0.0 1.999,0.0 Z"/>
+                                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                d="M15.334,19.384 C16.111,18.41 15.84,17.746 14.923,16.773 C14.265,12.793 19.618,10.76 22.421,12.857 C24.361,14.782 23.84,20.703 19.956,20.86 C16.961,19.499 21.423,14.787 19.33,13.862 C17.89,13.109 16.58,16.161 16.979,17.678 C16.438,20.287 15.275,22.742 15.746,26.11 C17.273,24.928 17.789,22.853 18.211,20.688 C18.979,21.146 19.390,21.619 20.368,21.692 C23.979,21.967 25.996,18.170 25.502,14.665 C25.64,11.557 21.896,9.977 18.518,10.347 C15.847,10.639 13.184,12.751 13.73,15.770 C13.6,17.613 13.541,18.995 15.334,19.384 Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script/slick.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>
